@@ -9,6 +9,25 @@ int main() {
     Bank bank;
     User user;
     
+    // Variables required for user to enter information.
+    std::string name;
+    std::string password;
+    std::string email;
+    
+    // Entering user's information
+    std::cout << "Enter your name, ";
+    std::getline(std::cin, name);
+
+    std::cout << "Create a password, ";
+    std::getline(std::cin, password);
+
+    std::cout << "Enter your email, ";
+    std::getline(std::cin, email);
+
+    user.setName(name);
+    user.setPassword(password);
+    user.setEmail(email);
+
     // Input variables for menu selections
     long long amountChoice;
     short int choice;
