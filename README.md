@@ -1,4 +1,4 @@
-# Bank Application
+# Bank App
 
 A simple console-based bank application with menu options. Users register with a username, password, and email. The application allows users to view their cash balance, bank and credit card balances, deposit and withdraw money from cards, and convert funds back to cash.
 
