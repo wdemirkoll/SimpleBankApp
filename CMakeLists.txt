@@ -6,7 +6,7 @@ project(SimpleBankApp)
 set(CMAKE_CXX_STANDARD 17)
 
 # Define the executable target
-add_executable(main
+add_executable(SimpleBankApp
     src/Main.cpp
     src/Bank.cpp
     src/Console.cpp
@@ -15,4 +15,4 @@ add_executable(main
 )
 
 # Specify the include directories for the target
-target_include_directories(main PRIVATE include)
+target_include_directories(SimpleBankApp PRIVATE include)
